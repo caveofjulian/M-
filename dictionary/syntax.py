@@ -1,22 +1,21 @@
-comment_prefix = '~'
+general_tokens = {
+    "parenthesis_open": '(',
+    "parenthesis_close": ')',
+    "semicolon": ';',
+    "bracket_open": '[',
+    "bracket_close": ')',
+}
 
-body_opening = '{'
-body_closing = '}'
+maths_tokens = {
+    "add": '+',
+    "subtract": '-',
+    "multiply": '*',
+    "divide": '/',
+    "greater": '>',
+    "lower": '<',
+    "equal": '==',
+    "different": '!=',
+    "at_least": ">=",
+    "at_most": "<="
+}
 
-parameter_opening = '('
-parameter_closing = ')'
-
-index_opening = '['
-index_closing = ']'
-
-switch_case_opening = ':'
-
-# Conditional
-equals = '=='
-not_equals = '!='
-
-high_than = '>'
-lower_than = '<'
-
-at_least = '>='
-at_most = '<='
